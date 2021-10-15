@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Poppins&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
+    url("./pexels-chait-goli-1797161.jpg") top/cover;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  font-family: "IM Fell English SC", sans-serif;
+  margin: 16px 0 16px 0;
+  letter-spacing: 3px;
+}
+
+#num {
+  width: 10em;
+  height: 2.75em;
+  padding: 0 1em 0 1em;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  border: unset;
+  border-radius: 5px;
+}
+
+#num:focus-visible {
+  outline: none;
+}
+
+.btn {
+  color: #fff;
+  padding: 0.75em 2em;
+  margin: 2em 1em 2em 1em;
+  border: unset;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: "Poppins";
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-convert {
+  background-color: rgb(5, 71, 92);
+}
+
+.btn-convert:hover {
+  background-color: rgb(5, 50, 75);
+}
+
+.btn-reset {
+  background-color: rgb(216, 30, 30);
+}
+
+.btn-reset:hover {
+  background-color: rgb(196, 22, 22);
+}
+
+#output {
+  text-align: center;
+  min-width: 1.2em;
+  min-height: 1.2em;
+  background: #fff;
+  border-radius: 5px;
+  padding: 0.25em 0.5em;
+  margin-top: 0.5em;
+  font-size: 28px;
+  letter-spacing: 3px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 56px;
+  }
+
+  #output {
+    font-size: 40px;
+  }
+}
